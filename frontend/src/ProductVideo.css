@@ -1,0 +1,269 @@
+/* =========================
+   PEMUTAR VIDEO
+   ========================= */
+
+.product-video {
+  margin-top: 48px;
+}
+
+.product-video-screen {
+  overflow: hidden;
+  background: var(--charcoal);
+  border: 1px solid var(--mineral-sage);
+  border-radius: 20px;
+}
+
+.product-video-element {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: var(--charcoal);
+  object-fit: contain;
+}
+
+/* =========================
+   VIDEO BELUM TERSEDIA
+   ========================= */
+
+.product-video-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  min-height: 330px;
+  padding: 32px;
+  background-color: var(--deep-teal);
+  background-size: cover;
+  background-position: center;
+  border: 1px solid var(--mineral-sage);
+  border-radius: 20px;
+  color: var(--ivory);
+  text-align: center;
+}
+
+.product-video-placeholder-icon {
+  display: grid;
+  place-items: center;
+  width: 64px;
+  height: 64px;
+  border: 1px solid var(--mineral-sage);
+  border-radius: 50%;
+  color: var(--ivory);
+}
+
+.product-video-placeholder h3 {
+  margin: 0;
+  color: var(--ivory);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.product-video-placeholder p {
+  margin: 0;
+  color: var(--ivory);
+  font-size: 14px;
+}
+
+/* =========================
+   PILIHAN TAHAPAN
+   ========================= */
+
+.product-video-navigation {
+  margin-top: 28px;
+}
+
+.product-video-navigation-heading h3 {
+  margin: 0 0 8px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.product-video-navigation-heading p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.dark-section
+  .product-video-navigation-heading h3,
+.dark-section
+  .product-video-navigation-heading p {
+  color: var(--ivory);
+}
+
+.product-video-steps {
+  display: grid;
+  grid-template-columns:
+    repeat(auto-fit, minmax(170px, 1fr));
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.product-video-step {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  min-width: 0;
+  padding: 20px;
+  background: var(--ivory);
+  border: 1px solid var(--warm-sand);
+  border-radius: 14px;
+  color: var(--deep-teal);
+  text-align: left;
+  font-family: "DM Sans", sans-serif;
+  cursor: pointer;
+  transition:
+    background 0.2s,
+    color 0.2s,
+    border-color 0.2s;
+}
+
+.product-video-step:hover:not(:disabled) {
+  background: var(--warm-sand);
+}
+
+.product-video-step.is-active {
+  background: var(--mineral-sage);
+  border-color: var(--mineral-sage);
+  color: var(--deep-teal);
+}
+
+.product-video-step:disabled {
+  cursor: default;
+  background: var(--ivory);
+  color: var(--muted);
+}
+
+.product-video-step-number {
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  background: var(--deep-teal);
+  border-radius: 8px;
+  color: var(--ivory);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.product-video-step-title {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.product-video-step-time {
+  margin-top: auto;
+  font-size: 12px;
+  line-height: 1.5;
+  font-variant-numeric: tabular-nums;
+}
+
+/* =========================
+   PESAN PEMUTAR
+   ========================= */
+
+.product-video-error {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-top: 16px;
+  padding: 16px;
+  background: var(--warm-sand);
+  border-radius: 12px;
+  color: var(--charcoal);
+}
+
+.product-video-error > svg {
+  flex-shrink: 0;
+}
+
+.product-video-error p {
+  flex: 1 1 220px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.product-video-error button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 10px 14px;
+  background: var(--deep-teal);
+  border: 0;
+  border-radius: 8px;
+  color: var(--ivory);
+  font-family: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.product-video-notice {
+  margin: 16px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.dark-section .product-video-notice {
+  color: var(--ivory);
+}
+
+.dark-section
+  .product-video-error
+  button:focus-visible {
+  outline-color: var(--deep-teal);
+}
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width: 800px) {
+  .product-video {
+    margin-top: 32px;
+  }
+
+  .product-video-placeholder {
+    min-height: 260px;
+    padding: 24px;
+  }
+
+  .product-video-steps {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 430px) {
+  .product-video-placeholder h3 {
+    font-size: 19px;
+  }
+
+  .product-video-step {
+    gap: 10px;
+    padding: 16px;
+  }
+
+  .product-video-step-title {
+    font-size: 13px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .product-video-step {
+    transition: none;
+  }
+}
+

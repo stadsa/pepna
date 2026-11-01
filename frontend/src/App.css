@@ -1,3 +1,2235 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap');
-:root{--navy:#032539;--blue:#005f73;--teal:#0a9396;--mint:#d7f0ed;--coral:#ee9b00;--orange:#ca6702;--paper:#f4f7f7;--ink:#123040;--muted:#66808b;--line:#d9e7e8}*{box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:'DM Sans',sans-serif;color:var(--ink);background:var(--paper)}.app-shell{overflow:hidden}.container{width:min(1120px,calc(100% - 40px));margin:auto}.topbar{height:76px;display:flex;align-items:center;gap:28px;padding:0 max(20px,calc((100% - 1200px)/2));background:rgba(255,255,255,.96);position:sticky;top:0;z-index:20;border-bottom:1px solid rgba(0,95,115,.08)}.brand{font-family:'Plus Jakarta Sans';font-size:24px;font-weight:800;color:var(--navy);display:flex;align-items:center;gap:8px;text-decoration:none;white-space:nowrap}.brand-fish{background:var(--teal);color:white;border-radius:10px 10px 10px 2px;width:34px;height:30px;display:grid;place-items:center;transform:rotate(-8deg)}.brand-dot{color:var(--coral)}.desktop-nav{display:flex;align-items:center;gap:5px;margin-left:auto}.desktop-nav button,.footer button{border:0;background:transparent;color:#637984;font:600 13px 'DM Sans';padding:10px 11px;cursor:pointer}.desktop-nav button:hover,.desktop-nav button.active,.footer button:hover{color:var(--blue)}.nav-cta,.primary-btn{display:inline-flex;align-items:center;gap:9px;background:var(--coral);color:white;border:0;border-radius:8px;padding:13px 18px;font-weight:700;font-size:13px;text-decoration:none;cursor:pointer;transition:transform .2s,background .2s}.nav-cta:hover,.primary-btn:hover{background:var(--orange);transform:translateY(-2px)}.mobile-menu{display:none;background:none;border:0}.hero{background:linear-gradient(120deg,#e8f4f1 0%,#f8fbfa 60%,#d2ece9);min-height:665px;position:relative;padding:96px 0 115px}.hero-inner{width:min(1120px,calc(100% - 40px));margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.pill,.eyebrow{font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:var(--teal)}.pill{display:inline-flex;gap:7px;align-items:center;background:#fff;padding:8px 12px;border-radius:30px;letter-spacing:.04em;text-transform:none}.hero h1,.section-title h2,.buy-section h2{font:800 clamp(40px,5.2vw,70px)/1.08 'Plus Jakarta Sans';color:var(--navy);letter-spacing:-.06em;margin:24px 0 20px}.hero h1 em,.section-title h2 span,.buy-section h2 em{color:var(--teal);font-style:normal}.hero-lead{font-size:17px;line-height:1.75;color:#55727c;max-width:490px}.hero-actions{display:flex;align-items:center;gap:22px;margin:32px 0}.text-btn{border:0;background:none;color:var(--blue);font-weight:700;cursor:pointer}.text-btn span{color:var(--coral);margin-left:6px}.hero-proof{display:flex;align-items:center;gap:12px;color:#78919a;font-size:12px}.hero-proof p{margin:0;line-height:1.45}.hero-proof strong{color:var(--blue)}.avatar-stack{display:flex}.avatar-stack span{width:29px;height:29px;border:2px solid white;border-radius:50%;margin-left:-6px;display:grid;place-items:center;font-size:11px;color:white;background:var(--teal)}.avatar-stack span:nth-child(2){background:var(--coral)}.avatar-stack span:nth-child(3){background:var(--blue)}.image-frame{position:relative;border-radius:28px 28px 28px 80px;overflow:hidden;aspect-ratio:1/.98;box-shadow:20px 26px 55px rgba(0,95,115,.18);transform:rotate(2deg)}.image-frame img{width:100%;height:100%;object-fit:cover;filter:saturate(.85)}.image-stamp{position:absolute;bottom:24px;left:24px;background:white;border-radius:16px;padding:11px 14px;display:flex;align-items:center;gap:9px;color:var(--teal);box-shadow:0 7px 20px #003c4425}.image-stamp span{font:800 15px 'Plus Jakarta Sans';color:var(--navy)}.image-stamp small{display:block;font:400 10px 'DM Sans';color:var(--muted)}.floating-note{position:absolute;right:-12px;bottom:28px;background:var(--navy);color:white;padding:14px 18px;border-radius:13px;display:flex;gap:10px;align-items:center;box-shadow:0 12px 25px #003c4425}.floating-note svg{color:#85ded2}.floating-note strong,.floating-note small{display:block}.floating-note strong{font-size:12px}.floating-note small{font-size:10px;color:#a8c1c8;margin-top:3px}.bubble{position:absolute;border-radius:50%;border:1px solid #fff8;width:90px;height:90px}.bubble-one{right:5%;top:16%}.bubble-two{left:4%;bottom:20%;width:42px;height:42px}.wave{position:absolute;bottom:-1px;left:-2%;width:104%;height:75px;background:white;clip-path:ellipse(62% 65% at 51% 100%)}.trust-strip{width:min(1060px,calc(100% - 40px));margin:-25px auto 0;position:relative;z-index:3;background:white;border-radius:14px;padding:24px 30px;box-shadow:0 14px 35px #003c4412;display:grid;grid-template-columns:1.2fr repeat(3,1fr);gap:24px;align-items:center}.trust-intro strong{font:700 15px/1.35 'Plus Jakarta Sans';display:block;margin-top:7px}.trust-item{display:flex;align-items:center;gap:11px;border-left:1px solid var(--line);padding-left:20px}.icon-disc{width:40px;height:40px;border-radius:12px;background:var(--mint);color:var(--teal);display:grid;place-items:center}.trust-item strong,.trust-item small{display:block}.trust-item strong{font-size:13px}.trust-item small{font-size:10px;color:var(--muted);margin-top:3px}.section{padding:115px 0}.pale{background:var(--paper)}.white{background:#fff}.section-title{max-width:600px}.section-title h2{font-size:clamp(34px,4vw,53px);margin:14px 0 16px}.section-title p{font-size:15px;line-height:1.7;color:var(--muted);max-width:510px}.section-title.light h2{color:#fff}.section-title.light p{color:#a8c4ca}.halal-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:90px;margin-top:58px}.timeline-item{display:grid;grid-template-columns:42px 1fr;gap:18px;position:relative;padding-bottom:27px}.timeline-item:not(:last-child):after{content:"";position:absolute;left:20px;top:42px;height:calc(100% - 28px);border-left:1px dashed #a7cfd0}.timeline-icon{width:42px;height:42px;border-radius:50%;background:var(--teal);color:white;display:grid;place-items:center;position:relative;z-index:1;box-shadow:0 0 0 7px var(--paper)}.timeline-item span{font-size:10px;color:var(--teal);font-weight:800}.timeline-item h3{font:700 15px 'Plus Jakarta Sans';margin:3px 0 5px}.timeline-item p{font-size:13px;line-height:1.5;color:var(--muted);margin:0;max-width:400px}.certificate-card{background:#e6f1ef;border-radius:20px;padding:25px;align-self:start}.cert-top{display:flex;justify-content:space-between;align-items:center}.cert-seal{width:35px;height:35px;border-radius:50%;border:2px solid var(--teal);display:grid;place-items:center;color:var(--teal);font-weight:800}.status-chip{font-size:10px;color:var(--teal);background:#fff;border-radius:20px;padding:7px 10px}.status-chip span{width:6px;height:6px;background:#53ba73;border-radius:50%;display:inline-block;margin-right:5px}.cert-paper{background:#fff;margin:28px 0 18px;border-radius:13px;padding:27px;text-align:center;box-shadow:0 8px 20px #003c4410}.cert-mark{color:var(--teal);font:700 28px serif}.cert-paper strong{display:block;font:700 17px 'Plus Jakarta Sans';color:var(--navy);margin:9px}.cert-paper small{font-size:8px;letter-spacing:.2em;color:#a9b9bb}.cert-paper p{font-size:11px;color:var(--coral);margin:16px 0 0}.outline-btn{width:100%;display:flex;justify-content:center;align-items:center;gap:9px;background:white;border:1px solid #b8d7d5;border-radius:8px;padding:12px;color:var(--blue);font-weight:700;cursor:pointer}.guarantee-row{display:flex;flex-wrap:wrap;gap:15px;margin-top:45px;color:var(--muted);font-size:12px}.guarantee-row span{display:flex;align-items:center;gap:7px}.guarantee-row svg{color:var(--teal)}.split-heading{display:flex;justify-content:space-between;align-items:end;gap:30px}.origin-note{background:#f0f8f7;border-radius:12px;padding:15px 18px;min-width:195px}.origin-note svg{color:var(--coral);float:left;margin:2px 8px 18px 0}.origin-note strong{font-size:12px}.origin-note p{clear:both;margin:5px 0 0;color:var(--muted);font-size:11px}.ingredient-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:18px;margin-top:54px}.ingredient-main{position:relative;min-height:430px;overflow:hidden;border-radius:20px}.ingredient-main img{width:100%;height:100%;object-fit:cover}.ingredient-overlay{position:absolute;bottom:0;left:0;right:0;padding:33px;color:#fff;background:linear-gradient(transparent,rgba(3,37,57,.9))}.ingredient-overlay h3{font:700 25px 'Plus Jakarta Sans';margin:8px 0}.ingredient-overlay p{font-size:13px;max-width:300px;opacity:.85}.halal-tag{display:inline-flex;align-items:center;gap:5px;background:#d7f0ed;color:var(--blue);padding:7px 10px;border-radius:20px;font-size:10px;font-weight:700}.ingredient-facts{display:grid;grid-template-columns:1fr 1fr;gap:18px}.fact-card{background:#f1f7f6;padding:26px;border-radius:20px;position:relative}.fact-card.orange{background:#fff3df}.fact-card.teal{background:var(--blue);color:#fff;grid-column:span 2}.fact-card svg{color:var(--teal);margin:24px 0 14px}.fact-card.orange svg{color:var(--coral)}.fact-card.teal svg{color:#8cded5}.fact-number{position:absolute;right:20px;top:20px;font-size:11px;opacity:.5}.fact-card h3{font:700 15px 'Plus Jakarta Sans';margin:0 0 7px}.fact-card p{font-size:12px;line-height:1.55;color:var(--muted);margin:0}.fact-card.teal p{color:#b9d4d8}.dark-section{background:var(--navy);color:#fff}.video-card{margin-top:50px;min-height:330px;border-radius:22px;background-size:cover;background-position:center;position:relative;display:flex;align-items:end;overflow:hidden}.video-content{display:flex;gap:17px;align-items:center;padding:27px}.play-button{border:0;width:57px;height:57px;border-radius:50%;background:var(--coral);color:#fff;display:grid;place-items:center;cursor:pointer;transition:transform .2s}.play-button:hover{transform:scale(1.08)}.video-label{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#b7d6d8}.video-content h3{font:700 20px 'Plus Jakarta Sans';margin:6px 0;color:#fff}.video-link{font-size:11px;color:#b7d6d8}.process-steps{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:33px}.process-step{border-top:1px solid #30606c;padding-top:18px}.process-step>span{color:#76d8d1;font-size:11px}.process-step svg{margin:19px 0 12px;color:#f1ad42}.process-step h3{font:700 13px 'Plus Jakarta Sans';margin:0 0 7px}.process-step p{color:#a4c1c8;font-size:11px;line-height:1.5;margin:0}.usage-head{display:flex;justify-content:space-between;align-items:end}.quote{color:var(--teal);max-width:220px;font:600 13px/1.5 'Plus Jakarta Sans'}.quote svg{color:var(--coral)}.usage-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:52px}.usage-grid .video-card{margin:0;min-height:360px}.usage-steps{display:flex;flex-direction:column;gap:12px}.usage-step{display:grid;grid-template-columns:35px 25px 1fr 17px;align-items:center;gap:14px;background:white;border:1px solid var(--line);border-radius:14px;padding:19px}.usage-step:hover{transform:translateX(4px);transition:transform .2s}.step-badge{color:var(--coral);font:700 13px 'Plus Jakarta Sans'}.usage-step svg{color:var(--teal)}.usage-step h3{font:700 13px 'Plus Jakarta Sans';margin:0 0 4px}.usage-step p{color:var(--muted);font-size:11px;margin:0}.usage-step>svg:last-child{color:#a5bbbe}.warning{display:flex;align-items:center;gap:12px;background:#fff5e3;border:1px solid #f8d59b;border-radius:11px;padding:13px 16px;margin-top:26px;color:#895c1d;font-size:11px}.warning>span{width:24px;height:24px;border-radius:50%;background:#f4b64b;color:#fff;display:grid;place-items:center;font-weight:800}.warning p{margin:0}.buy-section{background:var(--teal);color:#fff;padding:100px 0}.buy-inner{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}.buy-section .eyebrow{color:#bdece7}.buy-section h2{color:#fff;font-size:clamp(35px,4vw,54px)}.buy-section p{color:#d0f0ed;max-width:400px;line-height:1.6}.light-btn{background:var(--coral);margin-top:20px}.product-card{background:#fff;border-radius:20px;padding:15px;color:var(--navy);display:flex;gap:20px;align-items:center;box-shadow:0 20px 50px #00484b44}.product-image{width:180px;height:180px;border-radius:13px;overflow:hidden;position:relative;background:#d7ebe7}.product-image img{width:100%;height:100%;object-fit:cover}.product-image span{position:absolute;bottom:10px;left:10px;background:#fff;padding:5px 7px;border-radius:5px;font-size:9px;color:var(--coral)}.product-info h3{font:700 20px 'Plus Jakarta Sans';margin:10px 0 5px}.product-info p{color:var(--muted);font-size:12px;margin:0 0 24px}.product-info>strong{font:700 17px 'Plus Jakarta Sans'}.product-info small{font:400 10px;color:var(--muted)}.footer{background:#fff;padding:60px 0 20px}.footer-grid{display:grid;grid-template-columns:2fr 1fr 1.5fr;gap:40px}.footer-brand{margin-bottom:18px}.footer p{font-size:13px;color:var(--muted);line-height:1.7}.footer-label{display:block;color:var(--navy);font:700 12px 'Plus Jakarta Sans';margin-bottom:15px}.footer button,.footer a,.footer span:not(.footer-label){display:flex;align-items:center;gap:7px;color:var(--muted);font-size:12px;margin:9px 0;text-decoration:none}.footer-bottom{width:min(1120px,calc(100% - 40px));border-top:1px solid var(--line);margin:38px auto 0;padding-top:20px;display:flex;justify-content:space-between;color:#9ab0b4;font-size:10px}.bottom-nav{display:none}.modal-backdrop{position:fixed;inset:0;background:#032539aa;z-index:50;display:grid;place-items:center;padding:20px}.modal{background:#fff;border-radius:20px;padding:40px;max-width:390px;width:100%;text-align:center;position:relative}.modal-close{position:absolute;right:14px;top:14px;border:0;background:#edf6f4;color:var(--teal);border-radius:50%;width:34px;height:34px;display:grid;place-items:center;cursor:pointer}.modal h2{font:700 23px 'Plus Jakarta Sans';margin:14px 0 8px}.modal p{font-size:13px;line-height:1.6;color:var(--muted)}.cert-mark.large{font-size:44px}.reveal{animation:rise .8s ease both}.delay-one{animation-delay:.18s}@keyframes rise{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}
-@media(max-width:800px){.topbar{height:65px;padding:0 20px}.desktop-nav,.nav-cta{display:none}.mobile-menu{display:block;margin-left:auto;color:var(--navy)}.hero{padding:67px 0 105px}.hero-inner{grid-template-columns:1fr;gap:44px}.hero h1{font-size:46px;margin-top:18px}.hero-lead{font-size:15px}.hero-actions{margin:25px 0}.hero-art{max-width:500px;margin:auto;width:100%}.trust-strip{grid-template-columns:1fr 1fr;padding:22px;gap:18px}.trust-intro{grid-column:span 2}.trust-item{border-left:0;padding-left:0}.trust-item:nth-child(3){border-left:1px solid var(--line);padding-left:15px}.trust-item:nth-child(4){grid-column:span 2}.halal-grid,.ingredient-grid,.usage-grid,.buy-inner{grid-template-columns:1fr;gap:40px}.section{padding:85px 0}.split-heading,.usage-head{display:block}.origin-note{margin-top:22px;width:max-content}.ingredient-main{min-height:380px}.process-steps{grid-template-columns:repeat(2,1fr);gap:24px}.process-step:last-child{grid-column:span 2}.buy-inner{gap:40px}.footer-grid{grid-template-columns:1fr 1fr}.footer-grid>div:first-child{grid-column:span 2}.bottom-nav{position:fixed;display:flex;bottom:0;left:0;right:0;height:68px;background:#fff;z-index:30;border-top:1px solid var(--line);justify-content:space-around;padding:7px 3px calc(7px + env(safe-area-inset-bottom));box-shadow:0 -8px 22px #003c4410}.bottom-nav button{border:0;background:none;color:#8ba0a5;display:flex;flex-direction:column;gap:3px;align-items:center;justify-content:center;font-size:9px;min-width:44px;cursor:pointer}.bottom-nav button.active{color:var(--teal)}.bottom-nav button.active svg{stroke-width:2.5}.footer{padding-bottom:90px}.footer-bottom{display:block;line-height:2}.footer-bottom span{display:block}.product-card{max-width:480px}.product-image{width:145px;height:145px}}@media(max-width:430px){.container,.hero-inner,.footer-bottom{width:calc(100% - 32px)}.hero h1{font-size:41px}.hero-actions{gap:13px}.primary-btn{padding:12px 14px}.text-btn{font-size:12px}.trust-strip{width:calc(100% - 24px)}.trust-item strong{font-size:11px}.trust-item small{font-size:9px}.section-title h2{font-size:36px}.product-card{gap:13px;padding:10px}.product-image{width:122px;height:122px}.product-info h3{font-size:16px}.product-info p{font-size:10px;margin-bottom:16px}}
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap");
+
+/*palet warna*/
+
+:root {
+  --deep-teal: #0c393f;
+  --dark-teal: #07222a;
+  --mineral-sage: #8fae9d;
+  --sage-badge: #d8e6dd;
+  --ivory: #f4efe6;
+  --card-cream: #faf7f0;
+  --warm-sand: #d8cbb5;
+  --charcoal: #252b2d;
+  --copper-gold: #b38a55;
+
+  --navy: var(--deep-teal);
+  --blue: var(--deep-teal);
+  --teal: var(--deep-teal);
+  --mint: var(--mineral-sage);
+  --coral: var(--copper-gold);
+  --orange: var(--charcoal);
+  --paper: var(--ivory);
+  --ink: var(--charcoal);
+  --muted: #4b5e60;
+  --muted-sub: #5a6e6b;
+  --line: rgba(12, 57, 63, 0.12);
+  --font-heading: "Montserrat", sans-serif;
+  --font-body: "DM Sans", sans-serif;
+}
+
+/*dasar*/
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+}
+
+::selection {
+  background: var(--deep-teal);
+  color: var(--ivory);
+}
+
+.app-shell {
+  overflow-x: clip;
+  overflow-y: visible;
+}
+
+.container {
+  width: min(1120px, calc(100% - 40px));
+  margin: auto;
+}
+
+:where(a, button):focus-visible {
+  outline: 3px solid var(--deep-teal);
+  outline-offset: 4px;
+}
+
+.dark-section :where(a, button):focus-visible,
+.buy-section :where(a, button):focus-visible {
+  outline-color: var(--ivory);
+}
+
+/*header dan navigasi*/
+
+.topbar {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  padding: 0 max(24px, calc((100% - 1360px) / 2));
+  background: var(--ivory);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  border-bottom: 1px solid transparent;
+  transition: background 0.2s ease;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  text-decoration: none;
+  line-height: 0;
+}
+
+.brand-logo {
+  display: block;
+  width: auto;
+  height: 76px;
+  max-width: 220px;
+  object-fit: contain;
+}
+
+.desktop-nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+}
+
+.desktop-nav button,
+.footer button {
+  border: 0;
+  background: transparent;
+  color: #3d4e50;
+  font: 500 14px "DM Sans", sans-serif;
+  padding: 8px 14px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: color 0.15s ease, font-weight 0.15s ease;
+}
+
+.desktop-nav button:hover,
+.desktop-nav button.active,
+.footer button:hover {
+  color: var(--dark-teal);
+}
+
+.desktop-nav button.active {
+  font-weight: 700;
+}
+
+/* tombol */
+
+.nav-cta,
+.primary-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--deep-teal);
+  color: #ffffff;
+  border: 0;
+  border-radius: 10px;
+  padding: 12px 22px;
+  font-weight: 600;
+  font-size: 13.5px;
+  font-family: "DM Sans", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s;
+  white-space: nowrap;
+}
+
+.nav-cta:hover,
+.primary-btn:hover {
+  background: var(--dark-teal);
+  transform: translateY(-2px);
+}
+
+.text-btn {
+  border: 0;
+  background: none;
+  color: var(--dark-teal);
+  font-weight: 600;
+  font-size: 14.5px;
+  cursor: pointer;
+}
+
+.text-btn span {
+  margin-left: 6px;
+}
+
+.light-btn {
+  background: var(--ivory);
+  color: var(--deep-teal);
+  margin-top: 20px;
+}
+
+.light-btn:hover {
+  background: var(--warm-sand);
+  color: var(--deep-teal);
+}
+
+/* Beranda */
+
+.hero {
+  position: relative;
+  padding: 32px 0 28px;
+
+  background-color: var(--ivory);
+  background-image: var(--hero-bg-url);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: cover;
+}
+
+.hero-container {
+  width: min(1360px, calc(100% - 80px));
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.hero-inner {
+  display: grid;
+  grid-template-columns:
+    minmax(0, 0.36fr)
+    minmax(0, 0.64fr);
+  gap: 0;
+  align-items: center;
+
+  min-height: clamp(430px, 34vw, 560px);
+}
+
+.hero-copy {
+  min-width: 0;
+  max-width: 450px;
+  padding: 8px 0;
+}
+
+.hero-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  font-size: 14px;
+  color: var(--muted);
+  margin-bottom: 24px;
+}
+
+.eyebrow-star {
+  color: var(--deep-teal);
+  flex-shrink: 0;
+}
+
+.hero-heading {
+  min-width: 0;
+  margin: 0 0 22px;
+
+  font-family: var(--font-heading);
+  font-size: clamp(44px, 4.1vw, 64px);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.035em;
+
+  color: var(--dark-teal);
+  overflow-wrap: break-word;
+}
+
+.hero-heading span {
+  display: block;
+}
+
+.hero-lead {
+  max-width: 420px;
+  margin: 0 0 26px;
+
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: normal;
+  color: var(--muted);
+}
+
+.hero-lead em {
+  color: var(--dark-teal);
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 20px;
+  margin: 0;
+}
+
+.hero-cta-btn {
+  padding: 14px 20px;
+  font-size: 14px;
+  font-family: var(--font-heading);
+  font-weight: 600;
+}
+
+.hero-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+
+  padding: 12px 0;
+  border: 0;
+  background: none;
+
+  color: var(--dark-teal);
+  font: 600 14px var(--font-heading);
+  cursor: pointer;
+}
+
+.hero-link-btn:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.diagonal-arrow {
+  font-size: 16px;
+}
+
+.hero-art {
+  display: none;
+  min-width: 0;
+}
+
+.home-product {
+  width: 100%;
+}
+
+.home-product-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Panel informasi bawah beranda */
+
+.hero-highlights {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: center;
+
+  padding: 18px 24px;
+  background: var(--card-cream);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+}
+
+.highlight-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  position: relative;
+  min-width: 0;
+  padding: 4px 24px;
+}
+
+.highlight-icon-wrap {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+
+  background: var(--sage-badge);
+  color: var(--deep-teal);
+}
+
+.highlight-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.highlight-title {
+  color: var(--dark-teal);
+  font-size: 15px;
+  line-height: 1.3;
+  font-family: var(--font-heading);
+  font-weight: 600;
+}
+
+.highlight-copy {
+  color: var(--muted-sub);
+  font-size: 12.5px;
+  line-height: 1.4;
+  font-family: var(--font-body);
+font-weight: 400;
+}
+
+.highlight-divider {
+  position: absolute;
+  right: 0;
+  top: 15%;
+
+  width: 1px;
+  height: 70%;
+  background: var(--line);
+}
+
+/*foto beranda lama*/
+
+.image-frame {
+  position: relative;
+  border-radius: 28px 28px 28px 80px;
+  overflow: hidden;
+  aspect-ratio: 1 / 0.98;
+  box-shadow: 20px 26px 55px rgba(18, 60, 67, 0.18);
+  transform: rotate(2deg);
+}
+
+.image-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(0.85);
+}
+
+.image-stamp {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  background: var(--ivory);
+  border-radius: 16px;
+  padding: 11px 14px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: var(--teal);
+  box-shadow: 0 7px 20px rgba(18, 60, 67, 0.15);
+}
+
+.image-stamp span {
+  font: 800 15px "Plus Jakarta Sans", sans-serif;
+  color: var(--navy);
+}
+
+.image-stamp small {
+  display: block;
+  font: 400 10px "DM Sans", sans-serif;
+  color: var(--muted);
+}
+
+.floating-note {
+  position: absolute;
+  right: -12px;
+  bottom: 28px;
+  background: var(--navy);
+  color: var(--ivory);
+  padding: 14px 18px;
+  border-radius: 13px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  box-shadow: 0 12px 25px rgba(18, 60, 67, 0.15);
+}
+
+.floating-note svg {
+  color: var(--mineral-sage);
+}
+
+.floating-note strong,
+.floating-note small {
+  display: block;
+}
+
+.floating-note strong {
+  font-size: 12px;
+}
+
+.floating-note small {
+  font-size: 10px;
+  color: var(--ivory);
+  margin-top: 3px;
+}
+
+.bubble {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid rgba(245, 242, 233, 0.53);
+  width: 90px;
+  height: 90px;
+}
+
+.bubble-one {
+  right: 5%;
+  top: 16%;
+}
+
+.bubble-two {
+  left: 4%;
+  bottom: 20%;
+  width: 42px;
+  height: 42px;
+}
+
+.wave {
+  position: absolute;
+  bottom: -1px;
+  left: -2%;
+  width: 104%;
+  height: 75px;
+  background: var(--ivory);
+  clip-path: ellipse(62% 65% at 51% 100%);
+}
+
+.wave-light {
+  background: var(--paper);
+}
+
+/*scroll offset untuk header sticky*/
+
+.section-anchor {
+  scroll-margin-top: 80px;
+}
+
+/*bagian dan judul*/
+
+.section {
+  padding: 115px 0;
+}
+
+.pale {
+  background: var(--paper);
+}
+
+.white {
+  background: var(--ivory);
+}
+
+.section-title {
+  max-width: 600px;
+}
+
+.section-title h2 {
+  font-size: clamp(34px, 4vw, 53px);
+  margin: 14px 0 16px;
+}
+
+.section-title p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--muted);
+  max-width: 510px;
+}
+
+.section-title.light h2,
+.section-title.light p {
+  color: var(--ivory);
+}
+
+/*galeri dokumentasi kehalalan*/
+
+.halal-documentation-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 50px;
+  margin-top: 58px;
+}
+
+.halal-documentation-intro h3 {
+  font: 700 20px "Plus Jakarta Sans", sans-serif;
+  margin: 12px 0 8px;
+}
+
+.halal-documentation-intro > p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--muted);
+  max-width: 380px;
+}
+
+.halal-topic-list {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.halal-topic-button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 14px 16px;
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  color: var(--charcoal);
+  font: 600 14px "DM Sans", sans-serif;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.halal-topic-button:hover {
+  background: var(--ivory);
+  border-color: var(--mineral-sage);
+}
+
+.halal-topic-button.is-active {
+  background: var(--deep-teal);
+  border-color: var(--deep-teal);
+  color: var(--ivory);
+}
+
+.halal-topic-button svg {
+  margin-left: auto;
+  color: var(--muted);
+}
+
+.halal-topic-button.is-active svg {
+  color: var(--ivory);
+}
+
+.halal-topic-number {
+  font: 700 12px "Plus Jakarta Sans", sans-serif;
+  color: var(--teal);
+  min-width: 24px;
+}
+
+.halal-topic-button.is-active .halal-topic-number {
+  color: var(--mineral-sage);
+}
+
+.halal-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.halal-gallery-media {
+  overflow: hidden;
+  border-radius: 20px;
+  background: var(--warm-sand);
+  aspect-ratio: 4 / 3;
+}
+
+.halal-gallery-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.halal-gallery-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  height: 100%;
+  color: var(--muted);
+  text-align: center;
+  padding: 24px;
+}
+
+.halal-gallery-placeholder strong {
+  font: 700 15px "Plus Jakarta Sans", sans-serif;
+  color: var(--charcoal);
+}
+
+.halal-gallery-placeholder span {
+  font-size: 12px;
+}
+
+.halal-gallery-caption h3 {
+  font: 700 18px "Plus Jakarta Sans", sans-serif;
+  margin: 8px 0 6px;
+}
+
+.halal-gallery-caption p {
+  font-size: 13px;
+  line-height: 1.65;
+  color: var(--muted);
+  margin: 0;
+}
+
+.halal-gallery-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.halal-gallery-arrow {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--ivory);
+  color: var(--charcoal);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.halal-gallery-arrow:hover {
+  background: var(--warm-sand);
+}
+
+.halal-gallery-dots {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 auto;
+}
+
+.halal-gallery-dot {
+  width: 28px;
+  height: 5px;
+  border: 0;
+  border-radius: 3px;
+  background: var(--warm-sand);
+  padding: 0;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.halal-gallery-dot span {
+  display: none;
+}
+
+.halal-gallery-dot.is-active {
+  background: var(--deep-teal);
+}
+
+/* Tata letak dan tipografi bagian Kehalalan */
+
+#halal {
+  --halal-text: #faf7f0;
+  --halal-muted: #e0e9e5;
+  --halal-border: rgba(250, 247, 240, 0.4);
+  --halal-panel: #10383d;
+
+  margin-top: 0;
+padding: 178px 0 28px;
+
+  background-color: var(--deep-teal);
+  background-image:
+  linear-gradient(
+    rgba(7, 34, 42, 0.55),
+    rgba(7, 34, 42, 0.55)
+  ),
+  var(--halal-bg-url);  
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#halal > .container {
+  width: min(1200px, calc(100% - 64px));
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns:
+    minmax(0, 0.9fr)
+    minmax(0, 1.1fr);
+  grid-template-rows: auto minmax(0, 1fr);
+  gap: 24px 48px;
+  align-items: stretch;
+}
+
+/*
+ * Anak pembungkus dokumentasi mengikuti grid utama.
+ * Susunan elemen di App.js tetap sama.
+ */
+#halal .halal-documentation-grid {
+  display: contents;
+}
+
+/* Judul berada di kiri atas */
+
+#halal .section-title {
+  grid-column: 1;
+  grid-row: 1;
+  max-width: none;
+  margin: 0;
+}
+
+#halal .section-title > .eyebrow:empty {
+  display: none;
+}
+
+#halal .section-title h2 {
+  margin: 0 0 14px;
+  font-family: var(--font-heading);
+  font-size: clamp(28px, 2.8vw, 40px);
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: -0.035em;
+  color: var(--dark-teal);
+}
+
+#halal .section-title p {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.65;
+  color: var(--muted);
+}
+
+/* Pengantar dan pilihan dokumentasi di kiri bawah */
+
+#halal .halal-documentation-intro {
+  grid-column: 1;
+  grid-row: 2;
+
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+}
+
+#halal .eyebrow {
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+#halal .halal-documentation-intro h3 {
+  margin: 8px 0;
+  font-family: var(--font-heading);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  color: var(--dark-teal);
+}
+
+#halal .halal-documentation-intro p {
+  margin: 0 0 20px;
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+#halal .halal-topic-list {
+  display: grid;
+  gap: 8px;
+  margin: auto 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+#halal .halal-topic-button {
+  width: 100%;
+  min-height: 46px;
+  padding: 12px 16px;
+
+  font-family: var(--font-heading);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+/* Galeri berada di kanan, sejajar dengan bagian atas judul */
+
+#halal .halal-gallery {
+  grid-column: 2;
+  grid-row: 1 / 3;
+
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto 38px;
+  gap: 14px;
+
+  min-width: 0;
+  min-height: 0;
+}
+
+#halal .halal-gallery-media {
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  height: 100%;
+  aspect-ratio: auto;
+
+  overflow: clip;
+  border-radius: 18px;
+  background: var(--card-cream);
+}
+
+#halal .halal-gallery-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+#halal .halal-gallery-caption {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#halal .halal-gallery-caption h3 {
+  margin: 5px 0 6px;
+  font-family: var(--font-heading);
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  color: var(--dark-teal);
+}
+
+#halal .halal-gallery-caption p {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--muted);
+}
+
+#halal .halal-gallery-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  height: 38px;
+  margin: 0;
+}
+
+#halal .halal-gallery-arrow {
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+}
+
+/* Desktop: sesuaikan tinggi dengan ruang di bawah header */
+
+@media (min-width: 1101px) {
+  #halal > .container {
+    height: calc(100svh - 136px);
+    min-height: 560px;
+    max-height: 720px;
+  }
+}
+
+/* Tablet: dua kolom dengan jarak dan ukuran lebih ringkas */
+
+@media (min-width: 801px) and (max-width: 1100px) {
+  #halal > .container {
+    width: calc(100% - 48px);
+    grid-template-columns:
+      minmax(0, 1fr)
+      minmax(0, 1fr);
+    gap: 20px 28px;
+  }
+
+  #halal .section-title h2 {
+    font-size: 30px;
+  }
+
+  #halal .halal-gallery {
+    min-height: 520px;
+  }
+
+  #halal .halal-topic-button {
+    font-size: 12px;
+    padding: 12px;
+  }
+}
+
+/* HP: susunan mengalir agar teks dan foto tetap nyaman dibaca */
+
+@media (max-width: 800px) {
+#halal {
+  margin-top: 36px;
+  padding: 28px 0 40px;
+}
+
+  #halal > .container {
+    width: calc(100% - 32px);
+    height: auto;
+    min-height: 0;
+    max-height: none;
+
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto;
+    gap: 24px;
+  }
+
+  #halal .section-title,
+  #halal .halal-documentation-intro,
+  #halal .halal-gallery {
+    grid-column: 1;
+    grid-row: auto;
+  }
+
+  #halal .section-title h2 {
+    font-size: 30px;
+  }
+
+  #halal .halal-topic-list {
+    margin-top: 0;
+  }
+
+  #halal .halal-gallery {
+    grid-template-rows: auto auto 38px;
+    min-height: 0;
+  }
+
+  #halal .halal-gallery-media {
+    height: auto;
+    aspect-ratio: 4 / 3;
+  }
+}
+
+/* Warna bagian Kehalalan dengan background gelap */
+
+#halal .section-title h2,
+#halal .halal-documentation-intro h3,
+#halal .halal-gallery-caption h3,
+#halal .eyebrow {
+  color: var(--halal-text);
+}
+
+#halal .section-title p,
+#halal .halal-documentation-intro p,
+#halal .halal-gallery-caption p {
+  color: var(--halal-muted);
+}
+
+/* Pilihan dokumentasi */
+
+#halal .halal-topic-button {
+  background: var(--halal-panel);
+  border-color: var(--halal-border);
+  color: var(--halal-text);
+}
+
+#halal .halal-topic-number {
+  color: var(--halal-muted);
+}
+
+#halal .halal-topic-button:hover {
+  background: var(--dark-teal);
+}
+
+#halal .halal-topic-button.is-active {
+  background: var(--card-cream);
+  border-color: var(--card-cream);
+  color: var(--dark-teal);
+}
+
+#halal .halal-topic-button.is-active .halal-topic-number {
+  color: var(--deep-teal);
+}
+
+/* Panah dan indikator galeri */
+
+#halal .halal-gallery-arrow {
+  background: var(--halal-panel);
+  border-color: var(--halal-border);
+  color: var(--halal-text);
+}
+
+#halal .halal-gallery-arrow:hover {
+  background: var(--dark-teal);
+}
+
+#halal .halal-gallery-dot {
+  background: var(--halal-border);
+}
+
+#halal .halal-gallery-dot.is-active {
+  background: var(--halal-text);
+}
+
+/* Indikator fokus untuk navigasi keyboard */
+
+#halal :where(a, button):focus-visible {
+  outline: 3px solid var(--halal-text);
+  outline-offset: 4px;
+}
+
+/* Tampilan jika foto gagal dimuat */
+
+#halal .halal-gallery-placeholder {
+  background: var(--halal-panel);
+  color: var(--halal-text);
+}
+
+/*bahan baku*/
+
+.split-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 30px;
+}
+
+.origin-note {
+  background: var(--warm-sand);
+  border-radius: 12px;
+  padding: 15px 18px;
+  min-width: 195px;
+}
+
+.origin-note svg {
+  color: var(--coral);
+  float: left;
+  margin: 2px 8px 18px 0;
+}
+
+.origin-note strong {
+  font-size: 12px;
+}
+
+.origin-note p {
+  clear: both;
+  margin: 5px 0 0;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.ingredient-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 18px;
+  margin-top: 54px;
+}
+
+.ingredient-main {
+  position: relative;
+  min-height: 430px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.ingredient-main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ingredient-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 33px;
+  color: var(--ivory);
+  background: linear-gradient(
+    transparent,
+    rgba(18, 60, 67, 0.9)
+  );
+}
+
+.ingredient-overlay .eyebrow {
+  color: var(--mineral-sage);
+}
+
+.ingredient-overlay h3 {
+  font: 700 25px "Plus Jakarta Sans", sans-serif;
+  margin: 8px 0;
+}
+
+.ingredient-overlay p {
+  font-size: 13px;
+  max-width: 300px;
+  opacity: 0.85;
+}
+
+.ingredient-facts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.fact-card {
+  background: var(--mineral-sage);
+  padding: 26px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.fact-card.orange {
+  background: var(--warm-sand);
+}
+
+.fact-card.teal {
+  background: var(--blue);
+  color: var(--ivory);
+  grid-column: span 2;
+}
+
+.fact-card svg {
+  color: var(--teal);
+  margin: 24px 0 14px;
+}
+
+.fact-card.orange svg {
+  color: var(--coral);
+}
+
+.fact-card.teal svg {
+  color: var(--mineral-sage);
+}
+
+.fact-number {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 11px;
+  opacity: 0.5;
+}
+
+.fact-card h3 {
+  font: 700 15px "Plus Jakarta Sans", sans-serif;
+  margin: 0 0 7px;
+}
+
+.fact-card p {
+  font-size: 12px;
+  line-height: 1.55;
+  color: var(--charcoal);
+  margin: 0;
+}
+
+.fact-card.teal p {
+  color: var(--ivory);
+}
+
+/*peta sumber bahan google maps*/
+
+.source-map-wrapper {
+  margin-top: 40px;
+  background: var(--ivory);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(18, 60, 67, 0.05);
+}
+
+.source-map-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 24px 28px;
+  border-bottom: 1px solid var(--line);
+}
+
+.source-map-info h3 {
+  font: 700 18px "Plus Jakarta Sans", sans-serif;
+  color: var(--navy);
+  margin: 6px 0 4px;
+}
+
+.source-map-info p {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.supplier-website {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  margin-top: 12px;
+  color: var(--deep-teal);
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.supplier-website svg {
+  flex-shrink: 0;
+}
+
+.source-map-info p svg {
+  color: var(--coral);
+  flex-shrink: 0;
+}
+
+.source-map-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background: var(--deep-teal);
+  color: var(--ivory);
+  font: 600 13px "DM Sans", sans-serif;
+  text-decoration: none;
+  border-radius: 8px;
+  white-space: nowrap;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.source-map-btn:hover {
+  background: var(--charcoal);
+  transform: translateY(-2px);
+}
+
+.source-map-frame-container {
+  position: relative;
+  width: 100%;
+  height: 320px;
+  background: var(--warm-sand);
+}
+
+.source-map-iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+/*proses*/
+
+.dark-section {
+  background: var(--navy);
+  color: var(--ivory);
+}
+
+/*pembelian dan produk*/
+
+.buy-section {
+  background: var(--teal);
+  color: var(--ivory);
+  padding: 100px 0;
+}
+
+.buy-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.buy-section .eyebrow {
+  color: var(--ivory);
+}
+
+.buy-section h2 {
+  color: var(--ivory);
+  font-size: clamp(35px, 4vw, 54px);
+}
+
+.buy-section h2 em {
+  color: var(--mineral-sage);
+}
+
+.buy-section p {
+  color: var(--ivory);
+  max-width: 400px;
+  line-height: 1.6;
+}
+
+.product-card {
+  background: var(--ivory);
+  border-radius: 20px;
+  padding: 15px;
+  color: var(--navy);
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  box-shadow: 0 20px 50px rgba(18, 60, 67, 0.27);
+}
+
+.product-image {
+  width: 180px;
+  height: 180px;
+  border-radius: 13px;
+  overflow: hidden;
+  position: relative;
+  background: var(--mineral-sage);
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-image span {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: var(--ivory);
+  padding: 5px 7px;
+  border-radius: 5px;
+  font-size: 9px;
+  color: var(--deep-teal);
+}
+
+.product-info h3 {
+  font: 700 20px "Plus Jakarta Sans", sans-serif;
+  margin: 10px 0 5px;
+}
+
+.product-info p {
+  color: var(--muted);
+  font-size: 12px;
+  margin: 0 0 24px;
+}
+
+.product-info > strong {
+  font: 700 17px "Plus Jakarta Sans", sans-serif;
+}
+
+.product-info small {
+  font: 400 10px "DM Sans", sans-serif;
+  color: var(--muted);
+}
+
+/*footer*/
+
+.footer {
+  background: var(--ivory);
+  padding: 60px 0 20px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1.5fr;
+  gap: 40px;
+}
+
+.footer-brand {
+  margin-bottom: 18px;
+}
+
+.footer p {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.footer-label {
+  display: block;
+  color: var(--navy);
+  font: 700 12px "Plus Jakarta Sans", sans-serif;
+  margin-bottom: 15px;
+}
+
+.footer button,
+.footer a,
+.footer span:not(.footer-label) {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--muted);
+  font-size: 12px;
+  margin: 9px 0;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  width: min(1120px, calc(100% - 40px));
+  border-top: 1px solid var(--line);
+  margin: 38px auto 0;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.bottom-nav {
+  display: none;
+}
+
+/*animasi*/
+
+.reveal {
+  animation: rise 0.8s ease both;
+}
+
+.delay-one {
+  animation-delay: 0.18s;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/*ukuran di tablet dan mobile*/
+
+@media (max-width: 800px) {
+  .topbar {
+    height: 65px;
+    padding: 0 20px;
+  }
+
+  .desktop-nav,
+  .nav-cta {
+    display: none;
+  }
+
+  .trust-item {
+    border-left: 0;
+    padding-left: 0;
+  }
+
+  .trust-item:nth-child(3) {
+    border-left: 1px solid var(--line);
+    padding-left: 15px;
+  }
+
+  .trust-item:nth-child(4) {
+    grid-column: span 2;
+  }
+
+  .halal-documentation-grid,
+  .ingredient-grid,
+  .buy-inner {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .section {
+    padding: 85px 0;
+  }
+
+  .split-heading {
+    display: block;
+  }
+
+  .source-map-header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .source-map-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .origin-note {
+    margin-top: 22px;
+    width: max-content;
+  }
+
+  .ingredient-main {
+    min-height: 380px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-grid > div:first-child {
+    grid-column: span 2;
+  }
+
+  .bottom-nav {
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 68px;
+    background: var(--ivory);
+    z-index: 30;
+    border-top: 1px solid var(--line);
+    justify-content: space-around;
+    padding: 7px 3px calc(7px + env(safe-area-inset-bottom));
+    box-shadow: 0 -8px 22px rgba(18, 60, 67, 0.06);
+  }
+
+  .bottom-nav button {
+    border: 0;
+    background: none;
+    color: var(--muted);
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
+    min-width: 44px;
+    cursor: pointer;
+  }
+
+  .bottom-nav button.active {
+    color: var(--teal);
+  }
+
+  .bottom-nav button.active svg {
+    stroke-width: 2.5;
+  }
+
+  .footer {
+    padding-bottom: 90px;
+  }
+
+  .footer-bottom {
+    display: block;
+    line-height: 2;
+  }
+
+  .footer-bottom span {
+    display: block;
+  }
+
+  .product-card {
+    max-width: 480px;
+  }
+
+  .product-image {
+    width: 145px;
+    height: 145px;
+  }
+}
+
+/*ukuran mobile yang lebih kecil*/
+
+@media (max-width: 430px) {
+  .container,
+  .footer-bottom {
+  width: calc(100% - 32px);
+  }
+
+  .primary-btn {
+    padding: 12px 14px;
+  }
+
+  .text-btn {
+    font-size: 12px;
+  }
+
+  .trust-strip {
+    width: calc(100% - 24px);
+  }
+
+  .trust-item strong {
+    font-size: 11px;
+  }
+
+  .trust-item small {
+    font-size: 9px;
+  }
+
+  .section-title h2 {
+    font-size: 36px;
+  }
+
+  .product-card {
+    gap: 13px;
+    padding: 10px;
+  }
+
+  .product-image {
+    width: 122px;
+    height: 122px;
+  }
+
+  .product-info h3 {
+    font-size: 16px;
+  }
+
+  .product-info p {
+    font-size: 10px;
+    margin-bottom: 16px;
+  }
+}
+
+/* =========================
+   Tahap 2 — merapikan alur dokumentasi ke bahan
+   ========================= */
+
+#halal {
+  padding-bottom: 72px;
+}
+
+#ingredients {
+  padding-top: 72px;
+  border-top: 1px solid var(--warm-sand);
+
+  background-color: var(--ivory);
+  background-image:
+    linear-gradient(
+      rgba(244, 239, 230, 0.7),
+      rgba(244, 239, 230, 0.7)
+    ),
+    var(--ingredients-bg-url);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 800px) {
+  #halal {
+    padding-bottom: 48px;
+  }
+
+  #ingredients {
+    padding-top: 48px;
+  }
+}
+
+/* Tipografi header */
+.topbar .desktop-nav button,
+.topbar .nav-cta {
+  font-family: var(--font-heading);
+  font-weight: 600;
+}
+
+/* Responsivitas header dan beranda */
+
+/* Tablet: identitas dan kontak di atas, menu di baris kedua */
+@media (min-width: 801px) and (max-width: 1100px) {
+  .topbar {
+    height: auto;
+    min-height: 80px;
+    flex-wrap: wrap;
+    gap: 8px 20px;
+    padding: 14px 28px;
+  }
+
+.topbar .brand-logo {
+  width: auto;
+  height: 60px;
+  max-width: 160px;
+}
+
+  .topbar .nav-cta {
+    order: 1;
+    margin-left: auto;
+  }
+
+  .desktop-nav {
+    order: 2;
+    width: 100%;
+    margin: 0;
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  .desktop-nav button {
+    padding: 10px 12px;
+  }
+
+  .section-anchor {
+    scroll-margin-top: 140px;
+  }
+}
+
+/* Tablet dan HP: teks di atas, visual produk di bawah */
+@media (max-width: 1100px) {
+  .hero {
+    background-image: none;
+    padding: 36px 0 32px;
+  }
+
+  .hero-container {
+    width: min(900px, calc(100% - 48px));
+    gap: 28px;
+  }
+
+  .hero-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 28px;
+    min-height: 0;
+  }
+
+  .hero-copy {
+    max-width: 650px;
+    padding: 0;
+  }
+
+  .hero-heading {
+    max-width: 650px;
+    font-size: clamp(40px, 5.5vw, 56px);
+  }
+
+  .hero-lead {
+    max-width: 600px;
+  }
+
+  .hero-art {
+    display: block;
+  }
+
+  .home-product {
+    overflow: clip;
+    border-radius: 12px;
+  }
+
+  .home-product-image {
+    aspect-ratio: 1.85;
+    object-fit: cover;
+    object-position: right center;
+  }
+
+  .hero-highlights {
+    padding: 16px 12px;
+  }
+
+  .highlight-item {
+    padding: 4px 12px;
+    gap: 10px;
+  }
+
+  .highlight-icon-wrap {
+    width: 40px;
+    height: 40px;
+  }
+
+  .highlight-title {
+    font-size: 14px;
+  }
+}
+
+/* Header ponsel: navigasi bawah yang sudah ada tetap digunakan */
+@media (max-width: 800px) {
+  .topbar {
+    height: 68px;
+    padding: 0 20px;
+    gap: 12px;
+  }
+
+  .topbar .brand {
+    font-size: clamp(21px, 5vw, 26px);
+  }
+
+  .section-anchor {
+    scroll-margin-top: 68px;
+  }
+}
+
+/* HP: tombol vertikal, gambar fokus produk, informasi bertumpuk */
+@media (max-width: 600px) {
+  .hero {
+    padding: 28px 0;
+  }
+
+  .hero-container {
+    width: calc(100% - 32px);
+    gap: 24px;
+  }
+
+  .hero-inner {
+    gap: 24px;
+  }
+
+  .hero-eyebrow {
+    font-size: 13px;
+    margin-bottom: 18px;
+  }
+
+  .hero-heading {
+    font-size: clamp(32px, 8.2vw, 46px);
+    line-height: 1.1;
+    margin-bottom: 18px;
+  }
+
+  .hero-lead {
+    font-size: 15px;
+    line-height: 1.65;
+    margin-bottom: 22px;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+  }
+
+  .hero-cta-btn,
+  .hero-link-btn {
+    width: 100%;
+    min-height: 46px;
+    justify-content: center;
+  }
+
+  .home-product-image {
+    aspect-ratio: 1.35;
+  }
+
+  .hero-highlights {
+    grid-template-columns: minmax(0, 1fr);
+    padding: 8px 18px;
+  }
+
+  .highlight-item {
+    padding: 14px 0;
+    gap: 14px;
+  }
+
+  .highlight-item + .highlight-item {
+    border-top: 1px solid var(--line);
+  }
+
+  .highlight-divider {
+    display: none;
+  }
+
+  .highlight-title {
+    font-size: 15px;
+  }
+
+  .highlight-copy {
+    font-size: 13px;
+  }
+}
+
+/* Preferensi pengguna yang mengurangi animasi */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .reveal {
+    animation: none;
+  }
+
+  .nav-cta,
+  .primary-btn {
+    transition: none;
+  }
+}
+
+/* Tipografi bagian Bahan */
+#ingredients {
+  font-family: var(--font-body, "DM Sans", sans-serif);
+}
+
+/* Judul utama */
+#ingredients .section-title h2 {
+  font-family: var(--font-heading, "Montserrat", sans-serif);
+  font-size: clamp(30px, 3.2vw, 46px);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.035em;
+  margin-bottom: 18px;
+}
+
+/* Judul kartu dan informasi pemasok */
+#ingredients h3 {
+  font-family: var(--font-heading, "Montserrat", sans-serif);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+}
+
+/* Kalimat penjelasan */
+#ingredients p {
+  font-family: var(--font-body, "DM Sans", sans-serif);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.75;
+  letter-spacing: normal;
+}
+
+/* Penjelasan di bawah judul utama */
+#ingredients .section-title p {
+  font-size: 18px;
+  line-height: 1.75;
+  max-width: 640px;
+}
+
+/* Label kecil */
+#ingredients .eyebrow,
+#ingredients .fact-number {
+  font-family: var(--font-body, "DM Sans", sans-serif);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+/* Ringkasan sumber bahan */
+#ingredients .origin-note strong {
+  font-family: var(--font-heading, "Montserrat", sans-serif);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+#ingredients .origin-note p {
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+/* Informasi lokasi pemasok */
+#ingredients .source-map-info h3 {
+  font-size: 20px;
+  margin: 8px 0;
+}
+
+#ingredients .source-map-info p,
+#ingredients .supplier-website {
+  font-family: var(--font-body, "DM Sans", sans-serif);
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+/* Tombol peta */
+#ingredients .source-map-btn {
+  font-family: var(--font-heading, "Montserrat", sans-serif);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+/* Tablet */
+@media (min-width: 801px) and (max-width: 1100px) {
+  #ingredients .section-title h2 {
+    font-size: 36px;
+  }
+
+  #ingredients .section-title p {
+    font-size: 17px;
+  }
+}
+
+/* HP */
+@media (max-width: 800px) {
+  #ingredients .section-title h2 {
+    font-size: clamp(28px, 7vw, 34px);
+    line-height: 1.22;
+  }
+
+  #ingredients .section-title p {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  #ingredients h3,
+  #ingredients .source-map-info h3 {
+    font-size: 18px;
+  }
+
+  #ingredients p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  #ingredients .origin-note p {
+    font-size: 13px;
+  }
+
+  #ingredients .source-map-info p {
+    font-size: 14px;
+  }
+}
+
+/* Daftar empat bahan */
+#ingredients .ingredient-materials {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 36px;
+  align-items: stretch;
+}
+
+#ingredients .material-card {
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid rgba(16, 56, 61, 0.14);
+  border-radius: 20px;
+  background: var(--ivory, #f4efe6);
+}
+
+#ingredients .material-photo {
+  display: block;
+  width: 100%;
+  height: clamp(240px, 28vw, 380px);
+  object-fit: cover;
+  object-position: center;
+}
+
+#ingredients .material-content {
+  padding: 24px;
+}
+
+#ingredients .material-content h3 {
+  margin: 0;
+  color: var(--deep-teal, #10383d);
+  font-family: var(--font-heading, "Montserrat", sans-serif);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+#ingredients .material-scientific {
+  margin: 8px 0 0;
+  font-family: var(--font-body, "DM Sans", sans-serif);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+#ingredients .material-caption {
+  margin: 12px 0 0;
+  font-family: var(--font-body, "DM Sans", sans-serif);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+#ingredients .material-card--name {
+  display: flex;
+  align-items: center;
+  min-height: 104px;
+}
+
+@media (max-width: 800px) {
+  #ingredients .ingredient-materials {
+    gap: 16px;
+    margin-top: 28px;
+  }
+
+  #ingredients .material-content {
+    padding: 18px;
+  }
+
+  #ingredients .material-content h3 {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 600px) {
+  #ingredients .ingredient-materials {
+    grid-template-columns: 1fr;
+  }
+
+  #ingredients .material-photo {
+    height: 280px;
+  }
+
+  #ingredients .material-card--name {
+    min-height: 88px;
+  }
+}
+
+/* Tipografi bagian Proses */
+#process {
+  font-family: var(--font-body, "DM Sans", sans-serif);
+}
+
+/* Hilangkan ruang label yang kosong */
+#process .section-title > .eyebrow:empty {
+  display: none;
+}
+
+/* Judul utama */
+#process .section-title h2 {
+  font-family: var(--font-heading, "Montserrat", sans-serif);
+  font-size: clamp(30px, 3.2vw, 46px);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.035em;
+}
+
+/* Judul tahapan */
+#process h3,
+#process h4 {
+  font-family: var(--font-heading, "Montserrat", sans-serif);
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+}
+
+/* Kalimat penjelasan */
+#process p,
+#process li {
+  font-family: var(--font-body, "DM Sans", sans-serif);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.75;
+  letter-spacing: normal;
+}
+
+#process .section-title p {
+  font-size: 18px;
+  line-height: 1.75;
+}
+
+/* Tombol dan tautan */
+#process button,
+#process a {
+  font-family: var(--font-heading, "Montserrat", sans-serif);
+  font-weight: 600;
+}
+
+/* Label kecil */
+#process .eyebrow {
+  font-family: var(--font-body, "DM Sans", sans-serif);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+/* Tablet */
+@media (min-width: 801px) and (max-width: 1100px) {
+  #process .section-title h2 {
+    font-size: 36px;
+  }
+
+  #process .section-title p {
+    font-size: 17px;
+  }
+}
+
+/* HP */
+@media (max-width: 800px) {
+  #process .section-title h2 {
+    font-size: clamp(28px, 7vw, 34px);
+    line-height: 1.22;
+  }
+
+  #process .section-title p {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  #process p,
+  #process li {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+}
